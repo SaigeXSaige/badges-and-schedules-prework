@@ -22,11 +22,11 @@ end
 
 def printer(names)
   badges = batch_badge_creator(names)
-  assignments = assign_rooms(names)
+  
   badges.each do |badge|
       puts badge
   end
-  assignments.each do |assignment|
+  assign_rooms(names).each do |assignment|
     puts assignment
   end
 end

@@ -16,5 +16,5 @@ def assign_rooms(names)
     i++
     assignments.push(names)
   end
-  return assignments
+  return assignments.flatten
 end

@@ -15,7 +15,7 @@ def assign_rooms(names)
   assignments = []
   while i < names.length
     i++
-    names.each { |name| assignments.push("Hello, #{names[i]}! You'll be assigned to room #{number}!") }
+    names.each { |name| assignments.push("Hello, #{name}! You'll be assigned to room #{number}!") }
   end
   return assignments
 end

@@ -11,6 +11,6 @@ end
 
 def assign_rooms(names)
   for name in names
-    return "Hello, #{names}! You'll be assigned to room #{names.index}!"
+    return "Hello, #{name}! You'll be assigned to room #{name.index}!"
   end
 end

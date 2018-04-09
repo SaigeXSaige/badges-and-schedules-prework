@@ -14,7 +14,7 @@ def assign_rooms(names)
   assignments = []
   
   while i < names.length
-      assignments.push("Hello, #{names[i]}! You'll be assigned to room #{i}!")
+      assignments.push("Hello, #{names[i]}! You'll be assigned to room #{i + 1}!")
     i += 1
   end
   return assignments

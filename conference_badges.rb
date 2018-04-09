@@ -14,6 +14,6 @@ def assign_rooms(names)
   while i < names.length
     i++
     
-  end
+  
   
 end

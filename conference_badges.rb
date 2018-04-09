@@ -10,11 +10,5 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
-  i = 0
-  assignments = []
-  while i < names.length
-    i++
-    assignments.push(names)
-  end
-  return assignments.flatten
+  
 end

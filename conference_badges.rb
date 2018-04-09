@@ -12,9 +12,9 @@ end
 def assign_rooms(names)
   i = 0
   assignments = []
-  loop do
-  for name in names
-      assignments.push("Hello, #{names}! You'll be assigned to room #{i}!")
+  
+  while i < names.length
+      assignments.push("Hello, #{names[i]}! You'll be assigned to room #{i}!")
     i += 1
   end
   return assignments

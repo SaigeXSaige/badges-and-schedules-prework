@@ -11,11 +11,10 @@ end
 
 def assign_rooms(names)
   i = 0
-  number = i + 1
   assignments = []
   while i < names.length
     i++
-    
+    assignments.push(names)
   end
   return assignments
 end

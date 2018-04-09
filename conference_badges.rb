@@ -10,7 +10,8 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
-  for name in names
-    return "Hello, #{name}! You'll be assigned to room #{names.index}!"
+  i = 0
+  name = names[i]
+    return "Hello, #{name}! You'll be assigned to room #{i + }!"
   end
 end

@@ -15,5 +15,5 @@ def assign_rooms(names)
     i++
     
   end
-  return names
+  
 end

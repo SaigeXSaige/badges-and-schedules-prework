@@ -22,7 +22,7 @@ end
 
 def printer(names)
   for name in names
-    puts batch_badge_creator(name)
+    puts batch_badge_creator(names)
     puts assign_rooms(name)
   end
 end
